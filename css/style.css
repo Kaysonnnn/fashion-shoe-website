@@ -1,0 +1,16 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(102, 102, 102);
+    line-height: normal;
+    font-weight: 300;
+    direction: ltr;
+    background: rgb(255, 255, 255);
+}
