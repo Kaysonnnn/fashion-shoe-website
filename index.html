@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FASHION SHOE</title>
+  <title>FASHION SHOES</title>
 
   <!-- Fornt-GG  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -446,13 +446,41 @@
       <div class="menu_shoes__right col-xl-9 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-sp-12  ">
         <div class="lg:col-span-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <!-- Product 1 -->
-          <div class="border p-4 hover:shadow-lg transition">
+
+          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden">
+            <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-red-500 text-red-500 px-2 py-0.5 rounded-full">Reduced Price</span>
               <span class="text-xs border border-blue-500 text-blue-500 px-2 py-0.5 rounded-full ml-1">New</span>
             </div>
-            <img src="img/menu-shoes/aero-power-play-running-shoes.jpg" alt="Lunar Force Shoes"
-              class="w-full h-40 object-contain mb-4">
+
+            <!-- Vùng hình ảnh -->
+            <div class="relative w-full h-40 mb-4 flex items-center justify-center">
+              <!-- Ảnh chính -->
+              <img src="img/menu-shoes/aero-power-play-running-shoes.jpg" alt="Lunar Force Shoes"
+                class="max-h-full object-contain transition-opacity duration-300 group-hover:opacity-0" />
+
+              <!-- Ảnh hover -->
+              <img src="img/menu-shoes/nike-lunar-force-1-duckboot_sole.jpg" alt="Hover Image"
+                class="absolute top-0 left-0 w-full h-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+
+              <!-- Nút chức năng -->
+              <div
+                class="absolute top-1/2 -translate-y-1/2 right-0 flex flex-col gap-2 pr-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-eye text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-heart text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-search text-xs"></i>
+                </a>
+              </div>
+            </div>
             <div class="flex mb-2">
               <span class="text-yellow-400">
                 <i class="fa-solid fa-star"></i>
@@ -467,14 +495,44 @@
             <p class="text-yellow-500 font-bold">$88.65</p>
           </div>
 
+
+
+
           <!-- Product 2 -->
-          <div class="border p-4 hover:shadow-lg transition">
+          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden">
+            <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-yellow-500 text-yellow-500 px-2 py-0.5 rounded-full">On Sale!</span>
               <span class="text-xs border border-blue-500 text-blue-500 px-2 py-0.5 rounded-full ml-1">New</span>
             </div>
-            <img src="img/menu-shoes/asics-gt-2000-4-women-s-running-shoes.jpg" alt="Asics Women's Shoes"
-              class="w-full h-40 object-contain mb-4">
+
+            <!-- Vùng hình ảnh -->
+            <div class="relative w-full h-40 mb-4 flex items-center justify-center">
+              <!-- Ảnh chính -->
+              <img src="img/menu-shoes/asics-gt-2000-4-women-s-running-shoes.jpg" alt="Asics Women's Shoes"
+                class="max-h-full object-contain transition-opacity duration-300 group-hover:opacity-0" />
+
+              <!-- Ảnh hover -->
+              <img src="img/menu-shoes/aero-power-play-running-shoes.jpg" alt="Hover Image"
+                class="absolute top-0 left-0 w-full h-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+
+              <!-- Nút chức năng -->
+              <div
+                class="absolute top-1/2 -translate-y-1/2 right-0 flex flex-col gap-2 pr-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-eye text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-heart text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-search text-xs"></i>
+                </a>
+              </div>
+            </div>
             <div class="flex mb-2">
               <span class="text-yellow-400">
                 <i class="fa-solid fa-star"></i>
@@ -485,15 +543,44 @@
               </span>
             </div>
             <h3 class="font-semibold text-lg">Asics Women's Shoes</h3>
+            <p class="line-through text-sm text-gray-500">$63.30 <span class="text-red-500">(-10%)</span></p>
             <p class="text-yellow-500 font-bold">$56.99</p>
           </div>
+
           <!-- Product 3 -->
-          <div class="border p-4 hover:shadow-lg transition">
+          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden">
+            <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-blue-500 text-blue-500 px-2 py-0.5 rounded-full">New</span>
             </div>
-            <img src="img/menu-shoes/natson-multisport-training-shoes.jpg" alt="Nivia Tennis Shoes"
-              class="w-full h-40 object-contain mb-4">
+
+            <!-- Vùng hình ảnh -->
+            <div class="relative w-full h-40 mb-4 flex items-center justify-center">
+              <!-- Ảnh chính -->
+              <img src="img/menu-shoes/natson-multisport-training-shoes.jpg" alt="Nivia Tennis Shoes"
+                class="max-h-full object-contain transition-opacity duration-300 group-hover:opacity-0" />
+
+              <!-- Ảnh hover -->
+              <img src="img/menu-shoes/nike-lunar-force-1-duckboot.jpg" alt="Hover Image"
+                class="absolute top-0 left-0 w-full h-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+
+              <!-- Nút chức năng -->
+              <div
+                class="absolute top-1/2 -translate-y-1/2 right-0 flex flex-col gap-2 pr-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-eye text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-heart text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-search text-xs"></i>
+                </a>
+              </div>
+            </div>
             <div class="flex mb-2">
               <span class="text-yellow-400">
                 <i class="fa-solid fa-star"></i>
@@ -507,14 +594,42 @@
             <p class="text-yellow-500 font-bold">$105.99</p>
           </div>
 
+
           <!-- Product 4 -->
-          <div class="border p-4 hover:shadow-lg transition relative">
+          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden">
+            <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-orange-500 text-orange-500 px-2 py-0.5 rounded-full">Online Only</span>
               <span class="text-xs border border-blue-500 text-blue-500 px-2 py-0.5 rounded-full ml-1">New</span>
             </div>
-            <img src="img/menu-shoes/nike-lunar-force-1-duckboot.jpg" alt="Plasma Running Shoe"
-              class="w-full h-40 object-contain mb-4">
+
+            <!-- Vùng hình ảnh -->
+            <div class="relative w-full h-40 mb-4 flex items-center justify-center">
+              <!-- Ảnh chính -->
+              <img src="img/menu-shoes/nike-lunar-force-1-duckboot.jpg" alt="Plasma Running Shoe"
+                class="max-h-full object-contain transition-opacity duration-300 group-hover:opacity-0" />
+
+              <!-- Ảnh hover -->
+              <img src="img/menu-shoes/plasmaguard-running-shoe.jpg" alt="Hover Image"
+                class="absolute top-0 left-0 w-full h-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100 " />
+
+              <!-- Nút chức năng -->
+              <div
+                class="absolute top-1/2 -translate-y-1/2 right-0 flex flex-col gap-2 pr-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-eye text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-heart text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-search text-xs"></i>
+                </a>
+              </div>
+            </div>
             <div class="flex mb-2">
               <span class="text-yellow-400">
                 <i class="fa-solid fa-star"></i>
@@ -528,14 +643,42 @@
             <p class="text-yellow-500 font-bold">$70.99</p>
           </div>
 
+
           <!-- Product 5 -->
-          <div class="border p-4 hover:shadow-lg transition">
+          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden">
+            <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-red-500 text-red-500 px-2 py-0.5 rounded-full">Reduced Price</span>
               <span class="text-xs border border-blue-500 text-blue-500 px-2 py-0.5 rounded-full ml-1">New</span>
             </div>
-            <img src="img/menu-shoes/nivia-energy-tennis-shoes.jpg" alt="Running Shoes"
-              class="w-full h-40 object-contain mb-4">
+
+            <!-- Vùng hình ảnh -->
+            <div class="relative w-full h-40 mb-4 flex items-center justify-center">
+              <!-- Ảnh chính -->
+              <img src="img/menu-shoes/nivia-energy-tennis-shoes.jpg" alt="Running Shoes"
+                class="max-h-full object-contain transition-opacity duration-300 group-hover:opacity-0" />
+
+              <!-- Ảnh hover -->
+              <img src="img/menu-shoes/saucony-ride-9-running-shoes.jpg" alt="Hover Image"
+                class="absolute top-0 left-0 w-full h-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+
+              <!-- Nút chức năng -->
+              <div
+                class="absolute top-1/2 -translate-y-1/2 right-0 flex flex-col gap-2 pr-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-eye text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-heart text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-search text-xs"></i>
+                </a>
+              </div>
+            </div>
             <div class="flex mb-2">
               <span class="text-yellow-400">
                 <i class="fa-solid fa-star"></i>
@@ -550,13 +693,41 @@
             <p class="text-yellow-500 font-bold">$102.00</p>
           </div>
 
-          <!-- Product 6 (Row 2) -->
-          <div class="border p-4 hover:shadow-lg transition">
+
+          <!-- Product 6 -->
+          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden">
+            <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-blue-500 text-blue-500 px-2 py-0.5 rounded-full">New</span>
             </div>
-            <img src="img/menu-shoes/plasmaguard-running-shoe.jpg" alt="Performance Shoes"
-              class="w-full h-40 object-contain mb-4">
+
+            <!-- Vùng hình ảnh -->
+            <div class="relative w-full h-40 mb-4 flex items-center justify-center">
+              <!-- Ảnh chính -->
+              <img src="img/menu-shoes/plasmaguard-running-shoe.jpg" alt="Performance Shoes"
+                class="max-h-full object-contain transition-opacity duration-300 group-hover:opacity-0" />
+
+              <!-- Ảnh hover -->
+              <img src="img/menu-shoes/saucony-ride-9-running-shoes.jpg" alt="Hover Image"
+                class="absolute top-0 left-0 w-full h-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+
+              <!-- Nút chức năng -->
+              <div
+                class="absolute top-1/2 -translate-y-1/2 right-0 flex flex-col gap-2 pr-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-eye text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-heart text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-search text-xs"></i>
+                </a>
+              </div>
+            </div>
             <div class="flex mb-2">
               <span class="text-yellow-400">
                 <i class="fa-solid fa-star"></i>
@@ -570,14 +741,42 @@
             <p class="text-yellow-500 font-bold">$89.99</p>
           </div>
 
+
           <!-- Product 7  -->
-          <div class="border p-4 hover:shadow-lg transition">
+          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden">
+            <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-red-500 text-red-500 px-2 py-0.5 rounded-full">Reduced Price</span>
               <span class="text-xs border border-blue-500 text-blue-500 px-2 py-0.5 rounded-full ml-1">New</span>
             </div>
-            <img src="img/menu-shoes/saucony-ride-9-running-shoes.jpg " alt="Black Training Shoes"
-              class="w-full h-40 object-contain mb-4">
+
+            <!-- Vùng hình ảnh -->
+            <div class="relative w-full h-40 mb-4 flex items-center justify-center">
+              <!-- Ảnh chính -->
+              <img src="img/menu-shoes/saucony-ride-9-running-shoes.jpg" alt="Black Training Shoes"
+                class="max-h-full object-contain transition-opacity duration-300 group-hover:opacity-0" />
+
+              <!-- Ảnh hover -->
+              <img src="img/menu-shoes/topp-slip-on-running-shoes.jpg" alt="Hover Image"
+                class="absolute top-0 left-0 w-full h-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+
+              <!-- Nút chức năng  -->
+              <div
+                class="absolute top-1/2 -translate-y-1/2 right-0 flex flex-col gap-2 pr-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-eye text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-heart text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-search text-xs"></i>
+                </a>
+              </div>
+            </div>
             <div class="flex mb-2">
               <span class="text-yellow-400">
                 <i class="fa-solid fa-star"></i>
@@ -592,14 +791,40 @@
             <p class="text-yellow-500 font-bold">$76.00</p>
           </div>
 
+
           <!-- Product 8  -->
-          <div class="border p-4 hover:shadow-lg transition">
+          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden">
+            <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-yellow-500 text-yellow-500 px-2 py-0.5 rounded-full">On Sale!</span>
               <span class="text-xs border border-blue-500 text-blue-500 px-2 py-0.5 rounded-full ml-1">New</span>
             </div>
-            <img src="img/menu-shoes/topp-slip-on-running-shoes.jpg" alt="Walking Shoes"
-              class="w-full h-40 object-contain mb-4">
+            <div class="relative w-full h-40 mb-4 flex items-center justify-center">
+              <!-- Ảnh chính -->
+              <img src="img/menu-shoes/topp-slip-on-running-shoes.jpg" alt="Walking Shoes"
+                class="max-h-full object-contain transition-opacity duration-300 group-hover:opacity-0" />
+
+              <!-- Ảnh hover -->
+              <img src="img/menu-shoes/plasmaguard-running-shoe.jpg" alt="Hover Image"
+                class="absolute top-0 left-0 w-full h-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+
+              <!-- Nút chức năng -->
+              <div
+                class="absolute top-1/2 -translate-y-1/2 right-0 flex flex-col gap-2 pr-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-eye text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-heart text-xs"></i>
+                </a>
+                <a href="#"
+                  class="w-9 h-9 flex items-center justify-center bg-purple-500 text-white rounded-full shadow hover:bg-gray-600">
+                  <i class="fa-solid fa-search text-xs"></i>
+                </a>
+              </div>
+            </div>
             <div class="flex mb-2">
               <span class="text-yellow-400">
                 <i class="fa-solid fa-star"></i>
@@ -612,6 +837,9 @@
             <h3 class="font-semibold text-lg">Comfort Walker</h3>
             <p class="text-yellow-500 font-bold">$64.99</p>
           </div>
+
+
+
         </div>
       </div>
     </div>
