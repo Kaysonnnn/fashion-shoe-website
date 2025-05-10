@@ -1,33 +1,42 @@
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
 body {
-    font-family: Poppins, sans-serif;
-    font-size: 14px;
-    -webkit-font-smoothing: antialiased;
-    color: rgb(102, 102, 102);
-    line-height: normal;
-    font-weight: 300;
-    direction: ltr;
-    background: rgb(255, 255, 255);
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(102, 102, 102);
+  line-height: normal;
+  font-weight: 300;
+  direction: ltr;
+  background: rgb(255, 255, 255);
 }
+.languageText{
+  color: black;
+}
+
 .footer__content {
-    background-color: #333333;
+  background-color: #333333;
 }
+
 .banner__left {
   width: 20%;
 }
+
 .menu_shoes__right {
   width: 80%;
 }
+
 /* BACK TO TOP */
 .backToTop {
   width: 50px;
   height: 50px;
-  background-color: #777; /* màu xám */
+  background-color: #777;
+  /* màu xám */
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -44,20 +53,97 @@ body {
   opacity: 0;
   z-index: 999;
 }
+.btn-discover:hover{
+  color: black;
+}
+.showmore {
+  background-color: #333333;
+}
+
 .backToTop:hover {
-  background-color: #444; /* màu đậm hơn */
-  transform: scale(1.05); /* hiệu ứng phóng nhẹ */
+  background-color: #444;
+  /* màu đậm hơn */
+  transform: scale(1.05);
+  /* hiệu ứng phóng nhẹ */
 }
 
 .cd-top--is-visible {
   visibility: visible;
   opacity: 1;
 }
-.cd-top--is-visible { 
+
+.cd-top--is-visible {
   visibility: visible;
   opacity: 1;
 }
 
-.cd-top--fade-out { 
+.cd-top--fade-out {
   opacity: .5;
+}
+
+.img-hover-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-hover-wrapper::before,
+.img-hover-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.6);
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.img-hover-wrapper::before {
+  top: 0;
+  left: -50%;
+  transform: rotate(45deg) scaleX(0);
+}
+
+.img-hover-wrapper::after {
+  bottom: 0;
+  right: -50%;
+  transform: rotate(-45deg) scaleX(0);
+}
+
+.img-hover-wrapper::after,
+.img-hover-wrapper::before {
+  z-index: 2;
+}
+
+.img-hover-wrapper::after {
+  bottom: 0;
+  right: -50%;
+}
+
+.img-hover-wrapper:hover::before,
+.img-hover-wrapper:hover::after {
+  transform: rotate(45deg) scaleX(1.5);
+}
+
+.img-hover-wrapper:hover::after {
+  transform: rotate(-45deg) scaleX(1.5);
+}
+
+/* Overlay trắng mờ */
+.img-hover-wrapper::after,
+.img-hover-wrapper::before,
+.img-hover-wrapper .overlay {
+  pointer-events: none;
+}
+
+.img-hover-wrapper .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.img-hover-wrapper:hover .overlay {
+  opacity: 1;
 }
