@@ -17,7 +17,12 @@ body {
 .footer__content {
     background-color: #333333;
 }
-
+.banner__left {
+  width: 20%;
+}
+.menu_shoes__right {
+  width: 80%;
+}
 /* BACK TO TOP */
 .backToTop {
   width: 50px;
