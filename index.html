@@ -15,6 +15,8 @@
   <!-- SLICK -->
   <link rel="stylesheet" href="./libs/slick/slick.css" />
   <link rel="stylesheet" href="./libs/slick/slick-theme.css" />
+  <!-- taiWind  -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
   <!-- flowbite -->
   <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
@@ -340,7 +342,9 @@
               <div class="relative" style="position: relative;">
                 <div class="absolute -top-5 -left-5 w-48 h-48 border-t-2 border-l-2 border-white border-opacity-30">
                 </div>
-                <h2 class="text-6xl font-bold text-white leading-tight mb-8 wow animate__animated animate__backInDown animate__slow">Yellow<br>Sneaker</h2>
+                <h2
+                  class="text-6xl font-bold text-white leading-tight mb-8 wow animate__animated animate__backInDown animate__slow">
+                  Yellow<br>Sneaker</h2>
                 <div class="flex items-center cursor-pointer">
                   <div class="bg-white w-10 h-10 rounded-full flex items-center justify-center mr-3">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
@@ -355,7 +359,8 @@
           </div>
           <div class="w-1/2 flex items-center justify-center">
             <!-- Cố định kích thước hình ảnh -->
-            <div class="h-[400px] w-[400px] flex items-center justify-center wow animate__animated animate__backInDown animate__slow">
+            <div
+              class="h-[400px] w-[400px] flex items-center justify-center wow animate__animated animate__backInDown animate__slow">
               <img src="img/carousel/home1-slideshow2.png" alt="Yellow Nike sneaker"
                 class="max-h-full max-w-full object-contain">
             </div>
@@ -371,7 +376,9 @@
               <div class="relative" style="position: relative;">
                 <div class="absolute -top-5 -left-5 w-48 h-48 border-t-2 border-l-2 border-white border-opacity-30">
                 </div>
-                <h2 class="text-6xl font-bold text-white leading-tight mb-8 wow animate__animated animate__backInDown animate__slow" >Blue<br>Runner</h2>
+                <h2
+                  class="text-6xl font-bold text-white leading-tight mb-8 wow animate__animated animate__backInDown animate__slow">
+                  Blue<br>Runner</h2>
                 <!-- Video button -->
                 <div class="flex items-center cursor-pointer">
                   <div class="bg-white w-10 h-10 rounded-full flex items-center justify-center mr-3">
@@ -389,7 +396,8 @@
           <!-- Right side with sneaker image -->
           <div class="w-1/2 flex items-center justify-center">
             <!-- Cố định kích thước hình ảnh giống như slide đầu tiên -->
-            <div class="h-[400px] w-[400px] flex items-center justify-center wow animate__animated animate__backInDown animate__slow">
+            <div
+              class="h-[400px] w-[400px] flex items-center justify-center wow animate__animated animate__backInDown animate__slow">
               <img src="img/carousel/home1-slideshow2.png" alt="Blue Runner sneaker"
                 class="max-h-full max-w-full object-contain">
             </div>
@@ -465,19 +473,21 @@
 
   <!-- discover product  -->
   <section>
-    <div class="relative w-full h-[600px] bg-cover bg-center  "
+    <div class="relative w-full h-[600px] bg-cover bg-center"
       style="background-image: url('img/discover/bg-text-intro-cate.jpg');">
-      <div class="absolute inset-0 flex items-center justify-between px-16">
-        <div class="max-w-xl text-white">
-          <h1 class="text-5xl font-bold leading-tight">Nike Flyknit<br>Air Max</h1>
-          <p class="mt-6 text-lg">Free shipping and no hassle returns. Only with Nike+.</p>
-          <p class="text-lg">Running shoes for men & women</p>
+      <div class="absolute inset-0 flex flex-col md:flex-row items-center justify-between px-4 md:px-16">
+        <div class="text-white text-center md:text-left max-w-xl mt-6 md:mt-0">
+          <h1 class="text-4xl md:text-5xl font-bold leading-tight">Nike Flyknit<br>Air Max</h1>
+          <p class="mt-4 text-base md:text-lg">Free shipping and no hassle returns. Only with Nike+.</p>
+          <p class="text-base md:text-lg">Running shoes for men & women</p>
           <button
-            class="mt-6 px-6 py-3 border border-white text-white font-semibold hover:bg-white transition btn-discover">DISCOVER
-            NOW</button>
+            class="mt-6 px-6 py-3 border border-white text-white font-semibold hover:bg-white transition btn-discover">
+            DISCOVER NOW
+          </button>
         </div>
-        <div class="max-w-[600px]">
-          <img src="img/discover/image-intro-cate.png" alt="Nike Flyknit Shoe" class="w-full object-contain" />
+        <div class="mt-2 md:mt-0 w-full flex justify-center md:justify-end">
+          <img src="img/discover/image-intro-cate.png" alt="Nike Flyknit Shoe"
+            class="w-[80%] max-w-[600px] md:max-w-[600px] object-contain" />
         </div>
       </div>
     </div>
@@ -489,15 +499,17 @@
       <span>over 2000+ items available in store</span>
     </div>
     <div class="container flex gap-4 ">
-      <div class="banner__left col-xl-10 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-sp-12">
+      <div class="banner__left hide-on-mobile">
         <img src="img/menu-shoes/banner-1-4.jpg" alt="Featured Shoe" class="w-full h-full object-contain" />
       </div>
+
 
       <div class="menu_shoes__right col-xl-9 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-sp-12  ">
         <div class="lg:col-span-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 
           <!-- Product 1 -->
-          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
+          <div
+            class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
             <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-red-500 text-red-500 px-2 py-0.5 rounded-full">Reduced Price</span>
@@ -545,11 +557,9 @@
             <p class="text-yellow-500 font-bold">$88.65</p>
           </div>
 
-
-
-
           <!-- Product 2 -->
-          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
+          <div
+            class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
             <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-yellow-500 text-yellow-500 px-2 py-0.5 rounded-full">On Sale!</span>
@@ -598,7 +608,8 @@
           </div>
 
           <!-- Product 3 -->
-          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
+          <div
+            class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
             <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-blue-500 text-blue-500 px-2 py-0.5 rounded-full">New</span>
@@ -646,7 +657,8 @@
 
 
           <!-- Product 4 -->
-          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
+          <div
+            class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
             <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-orange-500 text-orange-500 px-2 py-0.5 rounded-full">Online Only</span>
@@ -695,7 +707,8 @@
 
 
           <!-- Product 5 -->
-          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
+          <div
+            class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
             <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-red-500 text-red-500 px-2 py-0.5 rounded-full">Reduced Price</span>
@@ -745,7 +758,8 @@
 
 
           <!-- Product 6 -->
-          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
+          <div
+            class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
             <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-blue-500 text-blue-500 px-2 py-0.5 rounded-full">New</span>
@@ -793,7 +807,8 @@
 
 
           <!-- Product 7  -->
-          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
+          <div
+            class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
             <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-red-500 text-red-500 px-2 py-0.5 rounded-full">Reduced Price</span>
@@ -843,7 +858,8 @@
 
 
           <!-- Product 8  -->
-          <div class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
+          <div
+            class="border p-4 hover:shadow-lg transition group relative overflow-hidden wow animate__animated animate__fadeInDown animate__slow">
             <!-- Tag giảm giá và mới -->
             <div class="mt-2 mb-2">
               <span class="text-xs border border-yellow-500 text-yellow-500 px-2 py-0.5 rounded-full">On Sale!</span>
@@ -910,7 +926,7 @@
 
       <div class="container mx-auto px-4">
         <div class="flex flex-col lg:flex-row w-full max-w-7xl mx-auto">
-          <div class="lg:w-1/2 w-full bg-blue-600 text-white p-8 mx-4">
+          <div class="lg:w-1/2 w-full bg-blue-600 text-white p-8 ">
             <div class="flex flex-col md:flex-row items-center mb-6">
               <div class="md:w-1/2 mb-4 md:mb-0">
                 <h2 class="text-3xl font-bold">Our<br>Galleries</h2>
@@ -930,9 +946,8 @@
               </div>
             </div>
           </div>
-
           <!-- Bên phải: Google Map + thông tin -->
-          <div class="lg:w-1/2 w-full mx-4 showmore">
+          <div class="lg:w-1/2 w-full showmore">
             <!-- Google Map -->
             <div class="w-full h-72">
               <iframe class="w-full h-full" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
